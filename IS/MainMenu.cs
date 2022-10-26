@@ -42,7 +42,7 @@ namespace IS
         private void btnTransations_Click(object sender, EventArgs e)
         {
             this.Hide();
-            //Transactions.GetInstance.Show();
+            Transactions.GetInstance.Show();
         }
     }
 }

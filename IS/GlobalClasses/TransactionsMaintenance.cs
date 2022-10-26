@@ -8,11 +8,11 @@ using System.Text;
 
 namespace IS.GlobalClasses
 {
-    public class TransationsMaintenance
+    public class TransactionsMaintenance
     {
         private readonly string Inventory;
 
-        public TransationsMaintenance()
+        public TransactionsMaintenance()
         {
             this.Inventory = ConfigurationManager.ConnectionStrings["Inventory"].ConnectionString;
         }
